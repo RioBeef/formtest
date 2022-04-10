@@ -2,12 +2,25 @@
 html {
     scroll-behavior: smooth;
 }
-html, body{
-    font-family: 'Open Sans', sans-serif;
+html, body, form, textarea{
+    font-family: 'Anek Tamil', sans-serif;
     font-size: 100%;
     margin: 0;
     padding: 1em 0 0 0;
     box-sizing: border-box;
     overflow-x: hidden !important;
     background-color: #fcfcfc;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+form input, textarea {
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid darkslategray;
+}
+
+form label {
+  display: inline-block;
+  padding: 1em 0 .5em 0;
 }
